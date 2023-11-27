@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/image/icons2.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_home.css">
+    <title>Computer Science Department</title>
+    
+    <script>
+        function reloadHomePage() {
+            location.reload();
+        }
+
+        function toggleVisibility(sectionId) {
+            var paragraph = document.getElementById(sectionId + "-paragraph");
+            if (paragraph.style.display === "none" || paragraph.style.display === "") {
+                paragraph.style.display = "block";
+            } else {
+                paragraph.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="/image/comScience_logo.png" alt="CS Department Logo" class="logo">
+        <h1>Welcome to the Computer Science Department</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="admissions.html">Admissions</a> <li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="alumni.html">Alumni</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2 onclick="toggleVisibility('about-us')">About Us</h2>
+        <img src="/image/About Us Image.jpg" alt="About Us Image" class="section-image">
+        <p id="about-us-paragraph">
+            Welcome to the Computer Science Department website. We are committed to advancing the field of computer science through
+            cutting-edge research, innovative teaching, and a vibrant academic community.
+        </p>
+    </section>
+
+    <section>
+        <h2 onclick="toggleVisibility('academic-programs')">Explore Our Academic Programs</h2>
+        <img src="/image/Explore Our Academic Programs.jpg" alt="Academic Programs Image" class="section-image">
+        <p id="academic-programs-paragraph" style="display: none;">
+            Our department offers a range of academic programs designed to prepare students for successful careers in the dynamic
+            and evolving field of computer science. From undergraduate to doctoral programs, we provide a comprehensive education
+            that equips students with the skills and knowledge needed in today's technology-driven world.
+        </p>
+    </section>
+
+    <section>
+        <h2 onclick="toggleVisibility('faculty')">Meet Our Expert Faculty</h2>
+        <img src="/image/Meet Our Expert Faculty.jpg" alt="Faculty Image" class="section-image">
+        <p id="faculty-paragraph">
+            Our faculty members are leaders in their respective fields, bringing a wealth of expertise and real-world experience
+            to the classroom. They are dedicated to mentoring students, conducting groundbreaking research, and contributing to the
+            advancement of computer science.
+        </p>
+    </section>
+
+    <section>
+        <h2 onclick="toggleVisibility('research')">Engage in Research and Innovation</h2>
+        <img src="/image/Engage in Research and Innovation.avif" alt="Research Image" class="section-image">
+        <p id="research-paragraph">
+            Join us in pushing the boundaries of computer science through exciting research projects. Our department is actively
+            involved in areas such as artificial intelligence, machine learning, cybersecurity, data science, and more. Explore
+            the opportunities to contribute to cutting-edge discoveries.
+        </p>
+    </section>
+
+    <section>
+        <h2 onclick="toggleVisibility('news-events')">Stay Informed with News and Events</h2>
+        <img src="/image/Stay Informed with News and Events.jpg" alt="News and Events Image" class="section-image">
+        <p id="news-events-paragraph">
+            Keep up-to-date with the latest news, events, and achievements within the Computer Science Department. From guest
+            lectures to research symposiums, there's always something happening in our dynamic academic community.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Computer Science Department</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('/image/alumni.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 136, 0);
+}
+
+header {
+  background-color: #33333300;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 1em;
+}
+
+.navbar {
+  background-color: #3647ff;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #09213980;
+  color: rgb(219, 181, 67);
+  border-bottom-color: #3498db;
+}
+
+.active {
+  background-color: #3498db;
+  color: red;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.alumni-card {
+  width: 300px;
+  margin: 20px;
+  background-color: #ffffff00;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.alumni-card:hover {
+  transform: translateY(-5px);
+}
+
+.alumni-card img {
+  width: 100%;
+  height: auto;
+}
+
+.alumni-details {
+  padding: 15px;
+}
+
+h2 {
+  color: #3498db;
+}
+
+
+
+.footer-text {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 0.8em;
+  color: black;
+}
+
+.logo {
+  max-height: 50px;
+}
