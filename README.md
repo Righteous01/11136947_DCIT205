@@ -22,7 +22,7 @@ Cloning Instructions:
 Use these procedures to build up your instance locally and clone the my website repository:
 
 Open your terminal:
-git clone https://github.com/KOBBY-RICCH/11117172_DCIT205.git
+https://github.com/Righteous01/11136947_DCIT205.git
 
 Navigate to the project directory:
 cd CSConnectHub
