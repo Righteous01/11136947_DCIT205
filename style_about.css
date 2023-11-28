@@ -1,0 +1,118 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  position: relative;
+}
+
+.header-container {
+  position: relative;
+  background-image: url('/images/g4.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #555;
+}
+
+p {
+  color: #666;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align:center;
+  background-color:rgb(13, 13, 59);
+  color: white;
+  padding: 10px;}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+      top: 10px;
+      right: 10px;
+  }
+
+  section {
+      padding: 10px;
+  }
+}
