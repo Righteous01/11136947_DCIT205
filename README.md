@@ -22,7 +22,7 @@ Cloning Instructions:
 Use these procedures to build up your instance locally and clone the my website repository:
 
 Open your terminal:
-https://github.com/Righteous01/11136947_DCIT205.git
+gh repo clone Righteous01/11136947_DCIT205
 
 Navigate to the project directory:
 cd CSConnectHub
